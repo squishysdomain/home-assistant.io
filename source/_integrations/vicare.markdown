@@ -35,8 +35,8 @@ There is currently support for the following device types within Home Assistant:
 Set `username`and `password` to your Viessmann Developer Portal login credentials.
 The required Client ID can be obtained as follows:
 1. Register and login in the [Viessmann Developer Portal](https://developer.viessmann.com). Use the same account as the one you registered your device with in ViCare.
-2. In the menu navigate to API Keys.
-3. Create a new OAuth client using the following data:
+2. Find and click on "My Dashboard" in the menu at the top of the page. A new page will open.
+3. In the "Your Clients" box create a new client using the following data:
   ```txt
   Name: PyViCare
   Google reCAPTCHA: Disabled
